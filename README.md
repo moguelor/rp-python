@@ -25,7 +25,7 @@ base_path_local_source = '/Users/josemoguel/Documents/fuentes/swapwink/'
 ```
 ln -s /Users/josemoguel/Documents/scripts-python/release-project.py rp
 ```
-6. Search your python3 path with `wich python3`
+6. Search your python3 path with `which python3`
 ```
 /usr/bin/python3
 ```
@@ -39,15 +39,15 @@ mv rp /usr/bin/rp
 
 1. You can release all projects in the environment `dev`:
 ```
-rpr
+rp
 ```
 
 2. You can release the projects specified in the environment `dev`:
 ```
-rpr {project_name}
+rp {project_name}
 ```
 
 3. You can release the project and environment specified:
 ```
-rpr {project_name} {environment}
+rp {project_name} {environment}
 ```
