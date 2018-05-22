@@ -2,9 +2,9 @@
 
 # Comandos disponibles:
 #
-# python3 release-project - Actualiza todos los proyectos en local.
-# python3 release-project {project} - Actualiza el proyecto local especificado.
-# python3 release-project {project} {environment}  - Actualiza el proyecto en el environment especificado.
+# rp - Actualiza todos los proyectos en local.
+# rp {project} - Actualiza el proyecto local especificado.
+# rp {project} {environment}  - Actualiza el proyecto en el environment especificado.
 
 import subprocess
 import os
